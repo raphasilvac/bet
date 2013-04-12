@@ -1,2 +1,2 @@
-bet
+Bet app
 ===
