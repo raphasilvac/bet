@@ -11,3 +11,5 @@
  *= require_self
  *= require_tree .
  */
+
+.mt60 {margin-top: 60px !important;}
