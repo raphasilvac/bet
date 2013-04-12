@@ -1,4 +1,7 @@
 Bet::Application.routes.draw do
+  resources :championships
+
+
   get "home/index"
 
   devise_for :users

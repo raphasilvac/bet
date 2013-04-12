@@ -5,3 +5,7 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+championship = Championship.create({name: "UEFA Europe League"})
+championship = Championship.create({name: "UEFA Champions League"})
+championship = Championship.create({name: "Copa Bridgestone Libertadores"})
