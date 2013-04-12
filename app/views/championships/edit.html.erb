@@ -1,6 +1,5 @@
-<h1>Editing championship</h1>
-
-<%= render 'form' %>
-
-<%= link_to 'Show', @championship %> |
-<%= link_to 'Back', championships_path %>
+<%- model_class = Championship -%>
+<div class="page-header">
+  <h1><%=t '.title', :default => [:'helpers.titles.edit', 'Edit %{model}'], :model => model_class.model_name.human %></h1>
+</div>
+<%= render :partial => 'form' %>
